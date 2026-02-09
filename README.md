@@ -7,7 +7,11 @@ This project demonstrates frontend animation techniques combined with cloud depl
 
 ## 📸 Preview
 
+### Main Interface
 ![Preview](screenshots/preview.png)
+
+### Final Interaction
+![Final](screenshots/final.png)
 
 ---
 
