@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Be My Valentine ❤️</title>
+
+  <!-- MAIN STYLES -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- CONFETTI LIBRARY -->
+  <script defer src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+  <!-- PRELOAD ASSETS (PERFORMANCE BOOST) -->
+  <link rel="preload" href="assets/bgsong.mpeg" as="audio">
+  <link rel="preload" href="assets/dancing-cat.gif" as="image">
+
+</head>
+
+<body>
+
+  <!-- =================================
+       BACKGROUND MUSIC
+  ================================= -->
+
+  <audio id="bgMusic" loop>
+    <source src="assets/bgsong.mpeg" type="audio/mpeg">
+  </audio>
+
+  <!-- =================================
+       SOUND EFFECT
+  ================================= -->
+
+  <audio id="yippeeSound">
+    <source src="assets/yippee.mp3" type="audio/mpeg">
+  </audio>
+
+
+  <!-- =================================
+       FLASH EFFECT OVERLAY
+  ================================= -->
+
+  <div id="flashOverlay" class="flash-overlay"></div>
+
+
+  <!-- =================================
+       MAIN INTERACTIVE CONTAINER
+  ================================= -->
+
+  <div id="mainContent" class="container">
+
+      <h1 id="question">Will you be my Valentine? ❤️</h1>
+
+      <div class="buttons">
+          <button id="yesBtn">YES!! 😍</button>
+          <button id="noBtn">No 😭</button>
+      </div>
+
+      <p id="message"></p>
+
+  </div>
+
+
+  <!-- MAIN SCRIPT -->
+  <script src="script.js"></script>
+
+</body>
+</html>
