@@ -53,17 +53,18 @@ Interactive Web Application
 
 ## 📂 Project Structure
 
+```
 ├── src/
-│ ├── index.html
-│ ├── style.css
-│ ├── script.js
-│ └── assets/
-│ ├── dancing-cat.gif
-│ ├── bgsong.mpeg
-│ └── yippee.mp3
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   └── assets/
+│       ├── dancing-cat.gif
+│       ├── bgsong.mpeg
+│       └── yippee.mp3
 ├── screenshots/
 └── README.md
-
+```
 ---
 
 ## 🧠 Key Learning Outcomes
