@@ -48,6 +48,7 @@ http://reychelle-valentine-site.s3-website-ap-southeast-1.amazonaws.com
 
 ## 📂 Project Structure
 
+```
 ├── src/
 │   ├── index.html
 │   ├── style.css
@@ -56,8 +57,7 @@ http://reychelle-valentine-site.s3-website-ap-southeast-1.amazonaws.com
 │       ├── dancing-cat.gif
 │       ├── bgsong.mpeg
 │       └── yippee.mp3
-
----
+```
 
 ## 🧠 What I Learned
 
